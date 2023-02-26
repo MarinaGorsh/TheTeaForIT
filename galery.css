@@ -1,19 +1,19 @@
-.column {
+.column, .column1, .column2{
     float: left;
 }
-.column img {
+.column img, .column1 img, .column2 img{
     opacity: 0.8;
     cursor: pointer;
 }
-.column img:hover {
+.column img:hover, .column1 img:hover, .column2 img:hover{
     opacity: 1;
 }
-.row:after {
+.row:after, .row1:after, .row2:after{
     content: "";
     display: table;
     clear: both;
 }
-.container {
+.container, .container1, .container2{
     position: relative;
     display: none;
 }
@@ -25,15 +25,15 @@
     font-size: 35px;
     cursor: pointer;
 }
-.row img{
+.row img, .row1 img, .row2 img{
     max-height: 95px;
     margin-left: 4px;
 }
-#expandedImg{
+#expandedImg,#expandedImg1,#expandedImg2{
     width: 340px;
     margin-left: 222px;
 }
-.dive{
+.dive, .dive1, .dive2{
     max-width: 812px;
     margin-left: auto;
     margin-right: auto;
